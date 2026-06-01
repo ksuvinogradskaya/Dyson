@@ -1,0 +1,35 @@
+.page {
+	font-family: var(--font-family);
+	font-weight: 400;
+	color: var(--text-color);
+}
+
+.page__body {
+	min-width: 375px;
+	background-color: var(--main-color);
+}
+
+.container {
+	width: min(var(--container-width), 100% - var(--container-padding) * 2);
+	margin: 0 auto;
+}
+
+@media (width <= 768px) {
+	.container {
+		--container-width: 627px;
+		width: min(var(--container-width), 100% - var(--container-padding) * 2);
+	}
+}
+
+@media (width <= 390px) {
+	.container {
+		--container-width: 350px;
+		width: min(var(--container-width), 100% - var(--container-padding) * 2);
+	}
+}
+
+a:focus-visible,
+button:focus-visible {
+	outline: 1px solid var(--accent-color);
+	outline-offset: 2px;
+}
