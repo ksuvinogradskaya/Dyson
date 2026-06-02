@@ -1,0 +1,53 @@
+
+.banner {
+	background: url(../../img/decor/banner-bg.png);
+    padding-bottom: 280px;
+}
+
+.banner__container {
+	display: flex;
+	gap: 87px;
+}
+
+.banner__info {
+	padding-top: 250px;
+}
+
+.banner__title {
+	font-family: var(--second-family);
+	max-width: 556px;
+	font-size: 46px;
+	line-height: 103%;
+	margin-bottom: 40px;
+}
+
+.banner__text {
+	font-family: var(--font-family);
+	max-width: 554px;
+	font-size: 26px;
+	line-height: 130%;
+	margin-bottom: 90px;
+}
+
+.banner__button {
+	max-width: 235px;
+	height: 64px;
+	padding: 15px 50px;
+	border-radius: 3px;
+	background-color: var(--accent-color);
+
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 24px;
+	color: var(--main-color);
+}
+
+.banner__images {
+
+}
+
+.banner__img {
+	position: absolute;
+	right: 3%;
+	width: clamp(280px, 7.4rem + 41.44vw, 740px);
+}
