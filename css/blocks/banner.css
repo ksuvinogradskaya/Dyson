@@ -1,12 +1,12 @@
-
 .banner {
 	background: url(../../img/decor/banner-bg.png);
-    padding-bottom: 280px;
 }
 
 .banner__container {
 	display: flex;
 	gap: 87px;
+    padding-bottom: 280px;
+	position: relative;
 }
 
 .banner__info {
@@ -48,6 +48,7 @@
 
 .banner__img {
 	position: absolute;
-	right: 3%;
+	right: -2%;
+	bottom: 0;
 	width: clamp(280px, 7.4rem + 41.44vw, 740px);
 }
