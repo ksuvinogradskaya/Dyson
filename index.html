@@ -1,0 +1,340 @@
+<!doctype html>
+<html class="page" lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./css/index.css" rel="stylesheet" />
+		<link
+			rel="shortcut icon"
+			type="image/x-icon"
+			href="./icons/fen-favicon.ico"
+		/>
+		<title>фен Dyson</title>
+	</head>
+	<body class="page__body">
+		<header class="header">
+			<div class="container header__container">
+				<div class="header__burger">
+					<button
+						class="header__burger-button burger"
+						aria-label="открыть меню"
+						aria-expanded="false"
+						aria-controls="header__menu"
+					>
+						<svg class="header__burger-svg" width="50" height="50">
+							<use
+								class="header__burger-icon"
+								href="./icons/sprite.svg#burger"
+							></use>
+						</svg>
+					</button>
+				</div>
+				<a class="logo header__logo" href="#">
+					<img
+						class="logo__img"
+						src="./icons/logo-icon.svg"
+						width="183"
+						height="77"
+						alt="Логотип Dyson"
+					/>
+				</a>
+				<nav class="menu header__menu" aria-label="главное меню">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a class="menu__link" href="#">О нас</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">Доставка и оплата</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">Регистрация продукта</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">Сервис</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">Сертификаты и лицензии</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__actions">
+					<button
+						class="header__actions-button"
+						title="корзина"
+						aria-label="корзина"
+					>
+						<svg class="header__actions-svg" width="36" height="36">
+							<use
+								class="header__actions-icon"
+								href="./icons/sprite.svg#cart"
+							></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="banner">
+				<div class="container banner__container">
+					<div class="banner__info">
+						<h1 class="banner__title title__md">
+							Уникальные технологии для ухода за волосами
+						</h1>
+						<p class="banner__text">
+							Идеальная укладка для всех типов волос вместе с Dyson
+						</p>
+						<a class="banner__button" href="#">Подробнее</a>
+					</div>
+					<picture class="banner__images">
+						<source srcset="./images/hero-girl.webp" />
+						<img
+							class="banner__img"
+							src="./images/hero-girl.png"
+							width="740"
+							height="850"
+							alt="девушка сушит волосы феном Dyson в правой руке"
+						/>
+					</picture>
+				</div>
+			</section>
+			<section id="#" class="category section">
+				<div class="container">
+					<div class="category__products">
+						<article class="category__product">
+							<a class="category_product-link" href="#">
+								<picture class="category__product-img-wrapper">
+									<source srcset="./images/category/category-1.webp"
+									type="image/webp" />
+									<img
+									class="category__product-img"
+										src="./images/category/category-1.png"
+										width="325"
+										height="325"
+										loading="lazy"
+										alt="Девушка выпрямляет волосы плойкой Dyson"
+									/>
+								</picture>
+								<div class="category__product-content">
+									<h2 class="category__product-title">
+										Акции
+									</h2>
+									<div class="category__product-text-wrapper">
+										<p class="category__product-text">
+											Подробнее
+										</p>
+										<svg width="28" height="25" >
+											<use class="category__product-icon" href="./icons/category-sprite.svg#arrow-right"></use>
+										</svg>
+									</div>
+								</div>
+							</a>
+						</article>
+						<article class="category__product">
+							<a class="category_product-link" href="#">
+								<picture class="category__product-img-wrapper">
+									<source srcset="./images/category/category-2.webp"
+									type="image/webp" />
+									<img
+									class="category__product-img"
+										src="./images/category/category-2.png"
+										width="324"
+										height="324"
+										loading="lazy"
+										alt="Фен Dyson"
+									/>
+								</picture>
+								<div class="category__product-content">
+									<h2 class="category__product-title">
+										Фены
+									</h2>
+									<div class="category__product-text-wrapper">
+										<p class="category__product-text">
+											Подробнее
+										</p>
+										<svg width="28" height="25" >
+											<use class="category__product-icon" href="./icons/category-sprite.svg#arrow-right"></use>
+										</svg>
+									</div>
+								</div>
+							</a>
+						</article>
+						<article class="category__product">
+							<a class="category_product-link" href="#">
+								<picture class="category__product-img-wrapper">
+									<source srcset="./images/category/category-3.webp"
+									type="image/webp" />
+									<img
+									class="category__product-img"
+										src="./images/category/category-3.png"
+										width="325"
+										height="324"
+										loading="lazy"
+										alt="Стайлер Dyson"
+									/>
+								</picture>
+								<div class="category__product-content">
+									<h2 class="category__product-title">
+										Стайлеры
+									</h2>
+									<div class="category__product-text-wrapper">
+										<p class="category__product-text">
+											Подробнее
+										</p>
+										<svg width="28" height="25" >
+											<use class="category__product-icon" href="./icons/category-sprite.svg#arrow-right"></use>
+										</svg>
+									</div>
+								</div>
+							</a>
+						</article>
+						<article class="category__product">
+							<a class="category_product-link" href="#">
+								<picture class="category__product-img-wrapper">
+									<source srcset="./images/category/category-4.webp"
+									type="image/webp" />
+									<img
+									class="category__product-img"
+										src="./images/category/category-4.png"
+										width="325"
+										height="324"
+										loading="lazy"
+										alt="Стайлер Dyson"
+									/>
+								</picture>
+								<div class="category__product-content">
+									<h2 class="category__product-title">
+										Стайлеры
+									</h2>
+									<div class="category__product-text-wrapper">
+										<p class="category__product-text">
+											Подробнее
+										</p>
+										<svg width="28" height="25" >
+											<use class="category__product-icon" href="./icons/category-sprite.svg#arrow-right"></use>
+										</svg>
+									</div>
+								</div>
+							</a>
+						</article>
+						<article class="category__product">
+							<a class="category_product-link" href="#">
+								<picture class="category__product-img-wrapper">
+									<source srcset="./images/category/category-1.webp"
+									type="image/webp" />
+									<img
+									class="category__product-img"
+										src="./images/category/category-1.png"
+										width="325"
+										height="325"
+										loading="lazy"
+										alt="Девушка выпрямляет волосы плойкой Dyson"
+									/>
+								</picture>
+								<div class="category__product-content">
+									<h2 class="category__product-title">
+										Акции
+									</h2>
+									<div class="category__product-text-wrapper">
+										<p class="category__product-text">
+											Подробнее
+										</p>
+										<svg width="28" height="25" >
+											<use class="category__product-icon" href="./icons/category-sprite.svg#arrow-right"></use>
+										</svg>
+									</div>
+								</div>
+							</a>
+						</article>
+						<article class="category__product">
+							<a class="category_product-link" href="#">
+								<picture class="category__product-img-wrapper">
+									<source srcset="./images/category/category-2.webp"
+									type="image/webp" />
+									<img
+									class="category__product-img"
+										src="./images/category/category-2.png"
+										width="324"
+										height="324"
+										loading="lazy"
+										alt="Фен Dyson"
+									/>
+								</picture>
+								<div class="category__product-content">
+									<h2 class="category__product-title">
+										Фены
+									</h2>
+									<div class="category__product-text-wrapper">
+										<p class="category__product-text">
+											Подробнее
+										</p>
+										<svg width="28" height="25" >
+											<use class="category__product-icon" href="./icons/category-sprite.svg#arrow-right"></use>
+										</svg>
+									</div>
+								</div>
+							</a>
+						</article>
+						<article class="category__product">
+							<a class="category_product-link" href="#">
+								<picture class="category__product-img-wrapper">
+									<source srcset="./images/category/category-3.webp"
+									type="image/webp" />
+									<img
+									class="category__product-img"
+										src="./images/category/category-3.png"
+										width="325"
+										height="324"
+										loading="lazy"
+										alt="Стайлер Dyson"
+									/>
+								</picture>
+								<div class="category__product-content">
+									<h2 class="category__product-title">
+										Стайлеры
+									</h2>
+									<div class="category__product-text-wrapper">
+										<p class="category__product-text">
+											Подробнее
+										</p>
+										<svg width="28" height="25" >
+											<use class="category__product-icon" href="./icons/category-sprite.svg#arrow-right"></use>
+										</svg>
+									</div>
+								</div>
+							</a>
+						</article>
+						<article class="category__product">
+							<a class="category_product-link" href="#">
+								<picture class="category__product-img-wrapper">
+									<source srcset="./images/category/category-4.webp"
+									type="image/webp" />
+									<img
+									class="category__product-img"
+										src="./images/category/category-4.png"
+										width="325"
+										height="324"
+										loading="lazy"
+										alt="Стайлер Dyson"
+									/>
+								</picture>
+								<div class="category__product-content">
+									<h2 class="category__product-title">
+										Стайлеры
+									</h2>
+									<div class="category__product-text-wrapper">
+										<p class="category__product-text">
+											Подробнее
+										</p>
+										<svg width="28" height="25" >
+											<use class="category__product-icon" href="./icons/category-sprite.svg#arrow-right"></use>
+										</svg>
+									</div>
+								</div>
+							</a>
+						</article>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
