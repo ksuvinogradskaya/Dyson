@@ -1,0 +1,14 @@
+/* base */
+@import "./base/normalize.css";
+@import "./base/fonts.css";
+@import "./base/vars.css";
+@import"./base/globals.css";
+
+/* blocks */
+@import "./blocks/header.css";
+@import "./blocks/burger.css";
+@import "./blocks/menu.css";
+@import "./blocks/banner.css";
+@import "./blocks/category.css";
+@import "./blocks/opinion-expert.css";
+@import "./blocks/why-us.css";
