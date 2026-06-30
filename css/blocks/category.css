@@ -104,7 +104,7 @@
 	width: clamp(11px, 0.34rem + 1.49vw, 34px);
 	height: clamp(11px, 0.34rem + 1.49vw, 34px);
 	object-fit: contain;
-	padding-right: 6px;
+	margin-right: 6px;
 	transition: transform var(--transition-time),color var(--transition-time);
 }
 
