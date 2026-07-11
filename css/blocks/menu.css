@@ -1,0 +1,27 @@
+
+.menu__list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+.menu__link {
+	font-family: var(--second-family);
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 20px;
+	padding: 5px 0px;
+	color: var(--main-color);
+	transition: color var(--transition-time);
+}
+
+@media (any-hover: hover) {
+	.menu__link:hover {
+		color: var(--accent-color);
+	}
+}
+
+.menu__link:active {
+	color: var(--accent-color);
+}
